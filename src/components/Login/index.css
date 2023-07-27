@@ -1,0 +1,83 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #152850;
+  min-height: 100vh;
+}
+
+.img-container {
+  display: flex;
+  border-radius: 20px;
+  background-color: #e0eefe;
+  height: 80vh;
+  width: 70w;
+}
+
+.image {
+  height: 90%;
+  width: 55%;
+  align-self: center;
+}
+
+.form-container {
+  background-color: #ffffff;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  width: 45%;
+  padding-left: 15px;
+}
+
+.main-heading {
+  color: #183b56;
+  /* font-size: 25px; */
+  font-weight: 700;
+  font-family: 'Roboto';
+}
+
+.label {
+  color: #5a7184;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.user-input {
+  outline: none;
+  padding: 10px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  width: 90%;
+  border-radius: 15px;
+  font-weight: 500;
+}
+
+.login-button {
+  background-color: #1565d8;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 800;
+  font-family: 'Roboto';
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  align-self: center;
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 0px;
+}
